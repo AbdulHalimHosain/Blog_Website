@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog Website</title>
+    <!-- font style   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexStyle.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <!-- HEADER STARTS HERE -->
+        <header id="blog-header">
+            <figure class="logo__figutre">
+                <i class="fa-solid fa-circle-nodes logo"></i>
+            </figure>
+            <nav id="menu-icon">
+                <ul>
+                    <li><a href="#home" class="nav__icon">Home</a></li>
+                    <li><a href="#about" class="nav__icon">About</a></li>
+                    <li><a href="#archive" class="nav__icon">Archieves</a></li>
+                    <li><a href="#blog" class="nav__icon">Blog</a></li>
+                    <li><a href="#contact" class="nav__icon">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    <!-- HEADER END HERE -->
+        <main>
+        <!-- blog banner start here -->
+            <section id="blog-banner-section" class="banner">
+                <article>
+                    <h1 class="banner__heading">Web Development</h1>
+                    <p class="banner__para text-justify">In web development, I've mastered skills about HTML, Bootstrap, Laravel, and Node.js. I can create beautiful, responsive interfaces with HTML and Bootstrap, ensuring smooth experiences on all devices. With Laravel, I can create web site, focusing on efficiency and with Node-js I can add real-time features for top performance. I'm excited to contribute to innovative projects in the future.</p>
+                </article>
+                <aside>
+                    <img src="./images/cover-photo.jpg" alt="Cover Photo" class="banner__img">
+                </aside>
+            </section>
+        <!--blog banner end here -->
+
+        <!-- about me section start here -->
+
+        <section id="blog-about" class="section-centre">
+            <h2 class="section-heading text-white">About Me</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3 class="card__heading">Eduction</h3>
+                    <p class="card__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus eveniet ab temporibus iure alias dignissimos vero libero. Perspiciatis, molestiae quis.</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__heading">Eduction</h3>
+                    <p class="card__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus eveniet ab temporibus iure alias dignissimos vero libero. Perspiciatis, molestiae quis.</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__heading">Eduction</h3>
+                    <p class="card__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus eveniet ab temporibus iure alias dignissimos vero libero. Perspiciatis, molestiae quis.</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+
+            </div>
+            
+        </section>
+        <!-- about me section end here -->
+
+
+        <!-- achieve section start here -->
+            <secttion id="achieve" class="section-centre">
+                <h2 class="section-heading ">Achieve</h2>
+                <div class="archieve-container">
+                    <ul class="archieve-container__lists">
+                        <li class="archieve-container__list"><img src="./images/img-1.jpg" alt="img-1" class="archieve-container__img"></li>
+                        <li class="archieve-container__list"><img src="./images/img-2.jpg" alt="img-2" class="archieve-container__img"></li>
+                        <li class="archieve-container__list"><img src="./images/img-3.jpg" alt="img-3" class="archieve-container__img"></li>
+
+                    </ul>
+                </div>
+            </secttion>
+
+        <!-- archieve section end here -->
+
+        <!-- blog section start from here -->
+            
+        <!-- blog section end here -->
+        </main>
+        <footer>
+            i am footer
+        </footer>
 </body>
-</html>
+</html> 
