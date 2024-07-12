@@ -18,13 +18,14 @@
             <figure class="logo__figutre">
                 <i class="fa-solid fa-circle-nodes logo"></i>
             </figure>
-            <nav id="menu-icon">
+            <i class="fas fa-bars fa-4x" id="log"></i>
+            <nav id="menu" class="hidden">
                 <ul>
-                    <li><a href="#home" class="nav__icon">Home</a></li>
-                    <li><a href="#about" class="nav__icon">About</a></li>
-                    <li><a href="#archive" class="nav__icon">Archieves</a></li>
-                    <li><a href="#blog" class="nav__icon">Blog</a></li>
-                    <li><a href="#contact" class="nav__icon">Contact</a></li>
+                    <li><a href="#blog-banner-section" class="nav__icon">Home</a></li>
+                    <li><a href="#blog-about" class="nav__icon">About</a></li>
+                    <li><a href="#achieve" class="nav__icon">Archieves</a></li>
+                    <li><a href="#blog-posts" class="nav__icon">Blog</a></li>
+                    <li><a href="#contact-section" class="nav__icon">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -85,11 +86,91 @@
         <!-- archieve section end here -->
 
         <!-- blog section start from here -->
-            
+            <section id="blog-posts" class="section-center">
+                <h2 class="section-heading">Blog Posts</h2>
+                <div class="blog-posts">
+                    <div class="blog-post">
+                        <aside class="blog-post__aside">
+                            <img src="./images/img-2.jpg" alt="blog image">
+                        </aside>
+                        <article class="blog-post__content">
+                            <h2 class="blog-post__heading">Blog Post 1</h2>
+                            <h3 class="blog-post_sub-heading">Lorem ipsum dolor sit amet.</h3>
+                            <p class="blog-post__para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facilis placeat sed necessitatibus minus possimus odio corrupti totam aliquid laboriosam. Deserunt vitae sint temporibus reiciendis rem animi ut facere architecto!</p>
+                            <button class="btn blog-post__btn">Read More</button>
+                        </article>
+                    </div>
+                    <div class="blog-post">
+                        <aside class="blog-post__aside">
+                            <img src="./images/img-2.jpg" alt="blog image">
+                        </aside>
+                        <article class="blog-post__content">
+                            <h2 class="blog-post__heading">Blog Post 2</h2>
+                            <h3 class="blog-post_sub-heading">Lorem ipsum dolor sit amet.</h3>
+                            <p class="blog-post__para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facilis placeat sed necessitatibus minus possimus odio corrupti totam aliquid laboriosam. Deserunt vitae sint temporibus reiciendis rem animi ut facere architecto!</p>
+                            <button class="btn blog-post__btn">Read More</button>
+                        </article>
+                    </div>
+                    <div class="blog-post">
+                        <aside class="blog-post__aside">
+                            <img src="./images/img-2.jpg" alt="blog image">
+                        </aside>
+                        <article class="blog-post__content">
+                            <h2 class="blog-post__heading">Blog Post 3</h2>
+                            <h3 class="blog-post_sub-heading">Lorem ipsum dolor sit amet.</h3>
+                            <p class="blog-post__para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facilis placeat sed necessitatibus minus possimus odio corrupti totam aliquid laboriosam. Deserunt vitae sint temporibus reiciendis rem animi ut facere architecto!</p>
+                            <button class="btn blog-post__btn">Read More</button>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            </section>
         <!-- blog section end here -->
+
+        <!-- contact section start from here -->
+            <section id="contact-section" class="section-centre">
+                <h2 class="section-heading text-white">Contact Me</h2>
+                <form action="">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" autocomplete="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Name</label>
+                        <input type="email" id="email" autocomplete="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <div class="form-control form-btn-feild">
+                        <button class="btn contact__btn">Submit</button>
+                    </div>
+
+                </form>
+            </section>
+        <!-- contact section end here -->
         </main>
-        <footer>
-            i am footer
+        <footer class="footer">
+            <p class="copyright_text">copyright &copy; by Abdul Halim Hosain. All Rights Reserved</p>
+            <nav class="footer__nav">
+                <a href="#blog-banner-section"  class="footer__link">
+                    <i class="fab fa-home"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__link">
+                    <i class="fab fa-facebook footer__icon"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__link">
+                    <i class="fab fa-twitter footer__icon"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__link">
+                    <i class="fab fa-instagram footer__icon"></i>
+                </a>
+                <a href="#" target="_blank" class="footer__link">
+                    <i class="fab fa-github footer__icon"></i>
+                </a>
+            </nav>
         </footer>
-</body>
+        <script src="./index.js"></script>
+    </body>
 </html> 
