@@ -9,3 +9,5 @@ menuIcon ?.addEventListener('click', () => {
         menu.classList.add('hidden')
     }
 })
+
+// BASIC
